@@ -9,9 +9,11 @@
 <body>
     <?php 
     
-    
-    
-    
+    echo "Hello World!";
+    var_dump("Hello World!"
+    );
+    $name = "Erick";
+    echo "meu nome e $name";
     
     
     
