@@ -18,7 +18,11 @@ $notareprovada = 5.00;
 $_GET['nota'] = 5.00;
 echo "Você foi reprovado com a nota:" . $_GET['nota'] . "<br>";
 
-
+if ($notaaprovada >= 7.0) {
+    echo "Parabéns, você foi aprovado!" . "<br>";
+} else if ($notareprovada < 5.0) {
+    echo "Infelizmente, você foi reprovado!" . "<br>";
+}
 
 
 
