@@ -22,9 +22,26 @@
 
 $nome = $_POST['nome'] ?? 'Não informado';
 
-
 echo "<div=class='dado'><strong>Nome:</strong> " . htmlspecialchars ($nome) . "</div>" ;
+?>
+<br>
+<?php
+$telefone = $_POST['telefone'] ?? 'Não informado';
 
+echo "<div=class='dado'><strong>Telefone:</strong> " . htmlspecialchars ($telefone) . "</div>" ;
+?>
+<br>
+<br>
+<?php
+$idade = $_POST['idade'] ?? 'Não informado';
+
+echo "<div=class'dado'><strong>Idade:</strong>" . htmlspecialchars ($idade) . "</div>" ; ?>
+<br>
+<br>
+<?php
+$email = $_POST['E-mail'] ?? 'Não informado';
+
+echo "<div class='dado'><strong>E-mail:</strong> " . htmlspecialchars ($email) . "</div>" ;  
 
 
 
