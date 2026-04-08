@@ -12,13 +12,13 @@
     <title>Recebendo Dados</title>
 </head>
 <body>
-    <div class="container">
-        <h2>Dados Recebidos do Formulário</h2>
+<div class="container">
+<h2>Dados Recebidos do Formulário</h2>
 
-        <?php
+ <?php
         
         //verificando se o formulário foi enviado
-        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 $nome = $_POST['nome'] ?? 'Não informado';
 
@@ -42,18 +42,7 @@ echo "<div=class'dado'><strong>Idade:</strong>" . htmlspecialchars ($idade) . "<
 $email = $_POST['E-mail'] ?? 'Não informado';
 
 echo "<div class='dado'><strong>E-mail:</strong> " . htmlspecialchars ($email) . "</div>" ;  
-
-
-
-
-
-
-
         }
-        
-        
-        
-        ?>
-
+?>
 </body>
 </html>

@@ -12,7 +12,7 @@
 </head>
 <body>
  <div class="container">
-    <form action="recebendo.php" method="POST"> 
+<form action="recebendo.php" method="POST"> 
 
 <label> Nome Completo: </label>
 <input type="text" name='nome' required placeholder ='digite seu nome completo'>
@@ -23,45 +23,23 @@
 <br>
 <br>
 <label> Idade: </label>
-<select type="number" name='idade'required placeholder='selecione sua idade'>
-    <option value="">selecione sua idade</option>
-    <option value="18-25">18-25</option>
-    <option value="26-35">26-35</option>
-    <option value="36-50">36-50</option>
-    <option value="51-60">51-60</option>
-    <option value="60+">60+</option></select>
-    <br>
-    <br>
-    <label> E-mail: </label>
-    <input type="text" name='E-mail' required placeholder='ExemploEmail@gmail.com'>
+<select type="number" name='idade'required placeholder='selecione sua idade'>    <option value="">selecione sua idade</option>
 
-
+<option value="18-25">18-25</option>
+<option value="26-35">26-35</option>
+<option value="36-50">36-50</option>
+<option value="51-60">51-60</option>
+<option value="60+">60+</option></select>
 <br>
 <br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<label> E-mail: </label>
+<input type="text" name='E-mail' required placeholder='ExemploEmail@gmail.com'>
+<br>
+<br>
 
 <button type="submit"> Enviar Dados </button>
 
-
-
-    </form>
+</form>
  </div>   
 </body>
 </html>
